@@ -1,38 +1,37 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'moon';
+  src: url(graphic-assets/fonts/Moon\ Bold.otf);
+  font-style: normal;
+  font-weight: 100;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+  height: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background: linear-gradient(180deg, rgba(24,186,254,1) 0%, rgba(255,255,255,1) 100%);
+  font-family: 'moon';
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* NAVBAR */
+
+.navbar {
+  background-color: transparent !important;
+}
+
+.head-text {
   color: white;
+  font-size: 24px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-buttons li{
+  display: inline;
+  margin: 0 10px;
+  text-decoration: none;
+  list-style: none;
 }
