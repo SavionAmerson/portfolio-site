@@ -7,14 +7,18 @@
 
 html {
   height: 100%;
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
 }
 
 body {
   height: 100%;
+  width: 100%;
   margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background: linear-gradient(180deg, rgba(24,186,254,1) 0%, rgba(255,255,255,1) 100%);
+  background: linear-gradient(180deg, rgba(24,186,254,1) 0%, rgb(189, 227, 253) 100%);
   font-family: 'moon';
 }
 
@@ -29,9 +33,95 @@ body {
   font-size: 24px;
 }
 
-.nav-buttons li{
+.nav-buttons li {
   display: inline;
   margin: 0 10px;
   text-decoration: none;
   list-style: none;
+}
+
+/* BIO SECTION */
+
+.bio {
+  height: 50vh;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.bio-section {
+  margin-left: 5%;
+}
+
+.bio-section {
+  color: white;
+  /* text-align: center; */
+}
+
+.upper-section{
+  display: flex;
+  margin-top: 1%;
+}
+
+/* PROJECTS SECTION */
+
+.projects {
+  height: 50vh;
+  margin-left: 5%;
+  border-radius: 20px;
+}
+
+.portfolio-head {
+  /* text-align: center; */
+  color: white;
+}
+
+.port-proj {
+  height: 15vh;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  margin: 5px 0;
+}
+
+.port-proj h1 {
+  font-size: 20px;
+  align-self: center;
+}
+
+.proj-text {
+  margin: 5px 20px;
+}
+
+.proj-text p {
+  font-size: 12px;
+}
+
+.CC, .DD, .AA{
+  width: 10%;
+  height: 50%;
+  border-radius: 3px;
+  margin: 15px 0;
+  border: black solid 0.2px;
+}
+
+/* SKILL SECTION */
+
+.skills-section {
+  height: 100px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 1% 25%;
+}
+
+.skills {
+  align-self: center;
+}
+
+.main-skills h1 {
+  text-align: center;
+  color: white;
+  margin-top: 1%;
 }
