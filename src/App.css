@@ -9,7 +9,7 @@ html {
   height: 100%;
   width: 100%;
   margin: 0;
-  overflow: hidden;
+  overflow: auto;
 }
 
 body {
@@ -20,6 +20,7 @@ body {
   background-attachment: fixed;
   background: linear-gradient(180deg, rgba(24,186,254,1) 0%, rgb(189, 227, 253) 100%);
   font-family: 'moon';
+  overflow: auto;
 }
 
 /* NAVBAR */
@@ -33,14 +34,37 @@ body {
   font-size: 24px;
 }
 
+.resume {
+  text-align: center;
+}
+
+.resume h1 {
+  color: white;
+  font-size: 14px;
+  margin: 4px 0;
+}
+
+.nav-buttons {
+  display: flex;
+}
+
 .nav-buttons li {
   display: inline;
   margin: 0 10px;
   text-decoration: none;
   list-style: none;
+  cursor: pointer;
+}
+
+.nav-buttons img:nth-child(2) {
+  animation-delay: 1s;
 }
 
 /* BIO SECTION */
+
+.about-me {
+  animation-delay: 100ms;
+}
 
 .bio {
   height: 50vh;
@@ -73,6 +97,7 @@ body {
 .portfolio-head {
   /* text-align: center; */
   color: white;
+  animation-delay: 850ms;
 }
 
 .port-proj {
@@ -83,6 +108,11 @@ body {
   margin: 5px 0;
 }
 
+.port-proj:hover {
+  border: solid black 2px;
+  cursor: pointer;
+}
+
 .port-proj h1 {
   font-size: 20px;
   align-self: center;
@@ -90,6 +120,7 @@ body {
 
 .proj-text {
   margin: 5px 20px;
+  align-self: center;
 }
 
 .proj-text p {
@@ -102,7 +133,19 @@ body {
   border-radius: 3px;
   margin: 15px 0;
   border: black solid 0.2px;
+  align-self: center;
 }
+
+/* PROJECT ANIMATION */
+
+.port-proj:nth-child(3) {
+  animation-delay: 200ms;
+}
+
+.port-proj:nth-child(2) {
+  animation-delay: 400ms;
+}
+
 
 /* SKILL SECTION */
 
@@ -114,14 +157,55 @@ body {
   flex-direction: row;
   justify-content: center;
   margin: 1% 25%;
+  writing-mode: vertical-lr;
+  text-align: center;
+  padding: 5px;
+}
+
+.main-skills {
+  text-align: -webkit-center;
 }
 
 .skills {
   align-self: center;
 }
 
+.skills img:hover {
+  width: 80px;
+  cursor: pointer;
+}
+
 .main-skills h1 {
   text-align: center;
   color: white;
   margin-top: 1%;
+}
+
+/* SKILL ANIMATIONS */
+.skills img:nth-child(2) {
+  animation-delay: 100ms;
+}
+.skills img:nth-child(3) {
+  animation-delay: 200ms;
+}
+.skills img:nth-child(4) {
+  animation-delay: 300ms;
+}
+.skills img:nth-child(5) {
+  animation-delay: 400ms;
+}
+.skills img:nth-child(6) {
+  animation-delay: 500ms;
+}
+.skills img:nth-child(7) {
+  animation-delay: 600ms;
+}
+.skills img:nth-child(8) {
+  animation-delay: 700ms;
+}
+.skills img:nth-child(9) {
+  animation-delay: 800ms;
+}
+.skills img:nth-child(10) {
+  animation-delay: 900ms;
 }
