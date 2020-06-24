@@ -13,7 +13,7 @@ class Projects extends React.Component {
                 <p>A FICTIONAL BARBER WEBSITE</p>
                 </div>
             </div>
-            <div className="port-proj col-12 animate__animated animate__rotateInDownRight">
+              <div className="port-proj col-12 animate__animated animate__rotateInDownRight">
                 <img src={require("../graphic-assets/images/DD-screenshot.JPG")} class="DD" alt="..." />
                 <div className="proj-text">
                 <h1>DINNER DUCK</h1>

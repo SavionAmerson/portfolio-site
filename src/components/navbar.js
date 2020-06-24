@@ -10,8 +10,8 @@ class Navbar extends React.Component {
           <li><img src={require("../graphic-assets/images/linkedin.png")} class="" alt="..." /></li>
           <li><img src={require("../graphic-assets/images/github.png")} class="" alt="..." /></li>
           <div className="resume">
-          <li><img src={require("../graphic-assets/images/download.png")} class="" alt="..." /></li>
-          <h1>RESUME</h1>
+          <a href="Savion Amerson Resume 2020.pdf" download><li><img src={require("../graphic-assets/images/download.png")} class="" alt="..." /></li>
+          <h1>RESUME</h1></a>
           </div>
           </ul>
         </nav>
