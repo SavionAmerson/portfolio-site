@@ -23,11 +23,6 @@ body {
   overflow: auto;
 }
 
-a {
-  text-decoration: none;
-  text-decoration-line: none;
-}
-
 /* NAVBAR */
 
 .navbar {
@@ -100,7 +95,6 @@ a {
 }
 
 .portfolio-head {
-  /* text-align: center; */
   color: white;
   animation-delay: 850ms;
 }
@@ -111,11 +105,15 @@ a {
   border-radius: 10px;
   display: flex;
   margin: 5px 0;
+  color: black;
 }
 
 .port-proj:hover {
   border: solid black 2px;
   cursor: pointer;
+  text-decoration: none;
+  text-decoration-line: none;
+  list-style: none;
 }
 
 .port-proj h1 {
@@ -126,6 +124,9 @@ a {
 .proj-text {
   margin: 5px 20px;
   align-self: center;
+  text-decoration: none;
+  text-decoration-line: none;
+  list-style: none;
 }
 
 .proj-text p {

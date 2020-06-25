@@ -6,6 +6,7 @@ class Projects extends React.Component {
       <div className="projects col-6 container">
         <div className="row">
             <h1 className="portfolio-head animate__animated animate__fadeInDown">PORTFOLIO PROJECTS</h1>
+            <a href="https://calvinscuts.netlify.app/" target="_blank">
             <div className="port-proj col-12 animate__animated animate__rotateInDownRight">
                 <img src={require("../graphic-assets/images/CC-screenshot.JPG")} class="CC" alt="..." />
                 <div className="proj-text">
@@ -13,6 +14,8 @@ class Projects extends React.Component {
                 <p>A FICTIONAL BARBER WEBSITE</p>
                 </div>
             </div>
+            </a>
+            <a href="https://dinnerduck.herokuapp.com/" target="_blank">
               <div className="port-proj col-12 animate__animated animate__rotateInDownRight">
                 <img src={require("../graphic-assets/images/DD-screenshot.JPG")} class="DD" alt="..." />
                 <div className="proj-text">
@@ -20,6 +23,8 @@ class Projects extends React.Component {
                 <p>A TOOL THAT PLANS A MEAL FOR MANY</p>
                 </div>
             </div>
+            </a>
+            <a href="https://ashworthsadoptions.netlify.app/" target="_blank">
             <div className="port-proj col-12 animate__animated animate__rotateInDownRight">
                 <img src={require("../graphic-assets/images/AA-screenshot.JPG")} class="AA" alt="..." />
                 <div className="proj-text">
@@ -27,6 +32,7 @@ class Projects extends React.Component {
                 <p>A FICTIONAL PET ADOPTION WEBSITE</p>
                 </div>
             </div>
+            </a>
         </div>
       </div>
     );
