@@ -63,7 +63,7 @@ body {
 /* BIO SECTION */
 
 .introduction {
-  text-align: -webkit-center;
+  text-align: center;
 }
 
 .introduction h1 {
@@ -192,7 +192,7 @@ body {
 }
 
 .main-skills {
-  text-align: -webkit-center;
+  text-align: center;
 }
 
 .skills {
