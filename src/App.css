@@ -113,6 +113,7 @@ body {
 
 .projects {
   height: 50vh;
+  width: 50%;
   margin-left: 5%;
   border-radius: 20px;
 }
@@ -124,6 +125,7 @@ body {
 
 .port-proj {
   height: 15vh;
+  width: 100vh;
   background-color: white;
   border-radius: 10px;
   display: flex;
@@ -192,7 +194,9 @@ body {
 }
 
 .main-skills {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .skills {

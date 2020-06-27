@@ -3,7 +3,7 @@ import React from "react";
 class Projects extends React.Component {
   render() {
     return (
-      <div className="projects col-6 container">
+      <div className="projects container">
         <div className="row">
             <h1 className="portfolio-head animate__animated animate__fadeInDown">PORTFOLIO PROJECTS</h1>
             <a href="https://calvinscuts.netlify.app/" target="_blank">
