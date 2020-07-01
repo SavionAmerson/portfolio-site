@@ -242,3 +242,41 @@ body {
 .skills img:nth-child(10) {
   animation-delay: 900ms;
 }
+
+
+/* MOBILE CSS */
+
+@media only screen and (max-width: 700px) {
+  .upper-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bio-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    height: 45vh;
+  }
+
+  .projects {
+    display: flex;
+  }
+
+  .portfolio-head {
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  .row a {
+    width: 90vw;
+    padding: 10px 0;
+  }
+
+  .main-skills {
+    padding: 250px 0;
+    display: none;
+  }
+}
